@@ -1,0 +1,34 @@
+name: codersbunny
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.6.0
+  shared_preferences: ^2.2.2
+  cupertino_icons: ^1.0.8
+  signalr_core: ^1.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/bunny.png
+    - assets/bunny2.png
+    - assets/cards/
+    - assets/icons/
+    - assets/items/
+    - assets/players/
+    - assets/hurdles/
+    - assets/destinations/
